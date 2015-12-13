@@ -8,7 +8,7 @@
 ############################################################
 
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM ubuntu:14.04
 
 MAINTAINER Justin Ball justinball@gmail.com
 
