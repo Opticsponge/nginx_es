@@ -13,7 +13,8 @@ FROM ubuntu:14.04
 MAINTAINER Justin Ball justinball@gmail.com
 
 # Install Nginx.
-RUN add-apt-repository -y ppa:nginx/stable
+RUN sudo add-apt-repository -y ppa:nginx/stable
+    
 RUN apt-get update
 RUN apt-get install -y nano wget dialog net-tools
 RUN apt-get install -y nginx
